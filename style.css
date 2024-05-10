@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.question-container p {
+    font-weight: bold;
+}
+
+.answer-options {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.answer-options label {
+    cursor: pointer;
+}
